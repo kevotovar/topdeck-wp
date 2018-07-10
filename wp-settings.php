@@ -19,7 +19,8 @@ define( 'WPINC', 'wp-includes' );
 require( ABSPATH . WPINC . '/load.php' );
 require( ABSPATH . WPINC . '/default-constants.php' );
 require_once( ABSPATH . WPINC . '/plugin.php' );
-
+define( 'AS3CF_AWS_ACCESS_KEY_ID',     'AKIAIMHGF3XC2Y2XI33A' );
+define( 'AS3CF_AWS_SECRET_ACCESS_KEY', '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' );
 /*
  * These can't be directly globalized in version.php. When updating,
  * we're including version.php from another installation and don't want
