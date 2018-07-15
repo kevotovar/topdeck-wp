@@ -8,7 +8,7 @@
 const cacheName = 'top-deck.com.mx-superpwa-1.8.1';
 const startPage = 'https://top-deck.com.mx';
 const offlinePage = 'https://top-deck.com.mx';
-const fallbackImage = 'https://top-deck.com.mx/wp-content/plugins/super-progressive-web-apps/public/images/logo.png';
+const fallbackImage = 'https://s3.amazonaws.com/topdeck-media/wp-content/uploads/2018/07/12220300/top-deck-samurai-icon.png';
 const filesToCache = [startPage, offlinePage, fallbackImage];
 const neverCacheUrls = [/\/wp-admin/,/\/wp-login/,/preview=true/];
 
